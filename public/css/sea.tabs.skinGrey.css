@@ -1,0 +1,37 @@
+﻿
+/* sea.tabs
+// css version 1.0.0
+// © Oleg Morev, 2015    
+// https://github.com/DpOLEGapx/ 
+//
+// ===================================================================================================================*/
+
+.seaTabs_switch { }
+
+.seaTabs_tab {
+  padding: 10px 20px;
+  border-width: 1px 1px 1px 0;
+  border-style: solid;
+  border-color: #ccc;
+  background: #eaeaea;
+}
+
+.seaTabs_tab:first-child {
+  border-left: 1px solid #ccc;
+  border-top-left-radius: 5px;
+}
+
+.seaTabs_tab:last-child { border-top-right-radius: 5px; }
+
+.seaTabs_content { margin-top: -1px; }
+
+.seaTabs_item {
+  padding: 20px;
+  border: 1px solid #ccc;
+ 
+}
+
+.seaTabs_switch_active {
+  border-bottom: 1px solid #fff;
+  background: #fff;
+}
