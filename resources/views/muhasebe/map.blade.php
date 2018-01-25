@@ -73,24 +73,7 @@
                         select: 'geometry',
                         from: '152rWNgYQrz_5CaXpgA-OU5INBOr-pAsbiwIVeTIZ',
 
-                    },
-                    styles: [{
-                        polygonOptions: {
-                            fillColor: '#00FF00',
-                            fillOpacity: 0.3
-                        }
-                    }, {
-                        where: 'ID_2 > 322',
-                        polygonOptions: {
-                            fillColor: '#fff702'
-                        }
-                    }, {
-                        where: 'ID_2 = 322',
-                        polygonOptions: {
-                            fillColor: '#ff2500',
-                            fillOpacity: 0.3
-                        }
-                    }],
+                    }, styles:  [{!! $data2 !!}] ,
                     options: {
                         styleId: 2,
                         templateId: 2
