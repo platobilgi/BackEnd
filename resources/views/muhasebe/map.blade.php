@@ -58,7 +58,28 @@
                     query: {
                         select: 'geometry',
                         from: '1NYlfPxGv5v73W23_rnqont9yb4eFQjxivRkaDot1',
-                        where:'Plaka = 23'
+
+                    },
+                    styles: [{
+                        polygonOptions: {
+                            fillColor: '#00FF00',
+                            fillOpacity: 0.3
+                        }
+                    }, {
+                        where: 'Plaka > 23',
+                        polygonOptions: {
+                            fillColor: '#fff702'
+                        }
+                    }, {
+                        where: 'Plaka = 23',
+                        polygonOptions: {
+                            fillColor: '#ff2500',
+                            fillOpacity: 0.3
+                        }
+                    }],
+                    options: {
+                        styleId: 2,
+                        templateId: 2
                     }
                 });
 
@@ -68,8 +89,28 @@
                     query: {
                         select: 'geometry',
                         from: '152rWNgYQrz_5CaXpgA-OU5INBOr-pAsbiwIVeTIZ',
-                        where:'ID_2 = 322'
 
+                    },
+                    styles: [{
+                        polygonOptions: {
+                            fillColor: '#00FF00',
+                            fillOpacity: 0.3
+                        }
+                    }, {
+                        where: 'ID_2 > 322',
+                        polygonOptions: {
+                            fillColor: '#fff702'
+                        }
+                    }, {
+                        where: 'ID_2 = 322',
+                        polygonOptions: {
+                            fillColor: '#ff2500',
+                            fillOpacity: 0.3
+                        }
+                    }],
+                    options: {
+                        styleId: 2,
+                        templateId: 2
                     }
                 });
 
