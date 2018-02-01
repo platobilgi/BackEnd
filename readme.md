@@ -1,4 +1,4 @@
-<p align="center"><img src="http://www.prodrom.com/tr/images/logo.png"></p>
+<p align="center"><img src="http://yaz.tek.firat.edu.tr/sites/yaz.tek.firat.edu.tr/files/13.png"></p>
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
@@ -25,4 +25,4 @@ XML PHP Extension
 
 ## License
 
-The Zeplin's All Rights Reserved by Prodrom ICT Solutions. 
+The Zeplin's All Rights Reserved by Platobilgi. 
